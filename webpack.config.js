@@ -5,12 +5,15 @@ const hotModuleReplacement = new webpack.HotModuleReplacementPlugin();
 
 module.exports = {
     mode: 'development',
+    target: 'web',
     resolve: { extensions: ['*', '.js', '.jsx'] },
+    devtool: 'inline-source-map',
     devServer: {
         contentBase: path.join(__dirname, 'public/'),
         port: 1138,
-        publicPath: 'http://localhost:1138/dist/',
-        hotOnly: true,
+        publicPath: '/dist/',
+        hot: true,
+        open: true,
     },
     module: {
         rules: [
