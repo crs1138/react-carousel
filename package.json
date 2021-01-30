@@ -1,0 +1,38 @@
+{
+  "name": "scandi-carousel",
+  "version": "0.1.0",
+  "description": "ScandiWeb carousel React exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crs1138/scandi-carousel.git"
+  },
+  "author": "Jan Honza Pozivil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crs1138/scandi-carousel/issues"
+  },
+  "homepage": "https://github.com/crs1138/scandi-carousel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "jest": "^26.6.3",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.19.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "browserslist": "> 0.25%, not dead",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
