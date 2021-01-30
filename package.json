@@ -4,8 +4,11 @@
   "description": "ScandiWeb carousel React exercise",
   "main": "index.js",
   "scripts": {
+    "start": "npm run dev",
+    "build": "webpack --mode production",
     "test": "jest",
-    "start": "webpack serve --mode development"
+    "dev": "webpack serve --mode development",
+    "dev:nowatch": "webpack --mode development"
   },
   "repository": {
     "type": "git",
